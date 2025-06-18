@@ -1,0 +1,99 @@
+@media screen and (max-width: 991px) {
+    .responsive-heading {
+        font-size: 1.5rem !important;
+    }
+    .responsive-button {
+        font-size: 1.0rem !important;
+        padding: 0.4rem 1rem !important;
+    }
+    .responsive-text-carousel {
+        font-size: 1.0rem !important;
+    }
+    .card-title {
+        font-size: 0.9rem !important;
+    }
+    .card-text {
+        font-size: 0.8rem !important;
+    }
+    .accordion-text {
+        font-size: 1.0rem !important;
+    }
+    .collection-button {
+        font-size: 1.0rem !important;
+        padding: 0.4rem 1rem !important;
+    }
+    .accordion-button {
+        font-size: 1.0rem !important;
+    }
+    .form-label {
+        font-size: 1.0rem !important;
+    }
+    .btn-order {
+        font-size: 1.0rem !important;
+    }
+    .text-rights {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .responsive-heading {
+        font-size: 1.25rem !important;
+    }
+    .responsive-text-carousel{
+        font-size: 0.7rem !important;
+    }
+    .responsive-text {
+        font-size: 1.0rem !important;
+    }
+    .responsive-button {
+        font-size: 0.7rem !important;
+        padding: 0.3rem 0.8rem !important;
+    }
+    .collection-button {
+        font-size: 0.8rem !important;
+        padding: 0.4rem 1rem !important;
+    }
+    .accordion-button {
+        font-size: 0.8rem !important;
+    }
+    .form-label {
+        font-size: 0.8rem !important;
+    }
+    .btn-order {
+        font-size: 0.8rem !important;
+    }
+    .text-rights {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .responsive-heading {
+        font-size: 1rem !important;
+    }
+
+    .responsive-text-carousel{
+        font-size: 0.5rem !important;
+    }
+
+    .responsive-text {
+        font-size: 0.5rem !important;
+    }
+
+    .responsive-button {
+        font-size: 0.5rem !important;
+        padding: 0.25rem 0.6rem !important;
+    }
+
+    h3 {
+        font-size: 1.5rem !important;
+    }
+    .collection-button {
+        font-size: 0.6rem !important;
+        padding: 0.4rem 1rem !important;
+    }
+    .text-rights {
+        font-size: 0.7rem !important;
+    }
+}

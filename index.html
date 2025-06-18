@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tea</title>
+
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/slick.css">
+    <link rel="stylesheet" href="styles/slick-theme.css">
+    <link rel="stylesheet" href="styles/jquery-ui.min.css">
+    <link rel="stylesheet" href="styles/hover-min.css">
+    <link rel="stylesheet" href="styles/magnific-popup.css">
+
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/adaptive.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<header class="p-3 bg-light text-secondary">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="d-flex w-100 justify-content-between align-items-center flex-lg-row flex-column">
+                <div class="logo-menu d-flex">
+                    <div class="logo">
+                        <a href="#"
+                           class="navbar-brand d-flex align-items-center me-3 mb-lg-0 text-dark text-decoration-none">
+                            <img src="images/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="menu-burger d-flex">
+                        <button class="navbar-toggler d-lg-none me-2" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="mainNavbar">
+                            <ul class="nav col-12 col-lg-auto justify-content-center">
+                                <li class="nav-item"><a href="#"
+                                                        class="nav-link active hvr-underline-from-center px-2 link-dark">Главная</a>
+                                </li>
+                                <li class="nav-item"><a href="#"
+                                                        class="nav-link hvr-underline-from-center px-2 link-secondary">Преимущества</a>
+                                </li>
+                                <li class="nav-item"><a href="#"
+                                                        class="nav-link hvr-underline-from-center px-2 link-secondary">Цены</a>
+                                </li>
+                                <li class="nav-item"><a href="#"
+                                                        class="nav-link hvr-underline-from-center px-2 link-secondary">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-sm-flex">
+                    <form class="col-12 col-sm-auto mb-3 mb-sm-0 me-sm-3">
+                        <input type="search" class="form-control" placeholder="Поиск чая" aria-label="Search">
+                    </form>
+                    <button type="button" class="btn btn-outline-primary hvr-wobble-top px-4">Найти</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section class="tea-carousel py-3 py-lg-5 wow animate__animated animate__backInDown">
+    <div class="container">
+        <div class="tea-slider">
+            <div class="slick-item position-relative">
+                <img src="images/slide1.png" class="d-block w-100" alt="Image Tea 1">
+                <div class="carousel-caption-1 text-start w-50 position-absolute top-50 translate-middle-y ms-3 ms-sm-5 ps-3 ps-sm-4 ps-md-5">
+                    <h2 class="text-dark fw-bold mb-3 mb-lg-5 fs-1 responsive-heading">Скидки на травяные чаи</h2>
+                    <p class="text-dark mb-3 mb-lg-5 fs-5 responsive-text-carousel">Узнай подробности, заполнив
+                        заявку</p>
+                    <button class="btn btn-primary w-50 hvr-grow-rotate btn-carousel responsive-button">Заполнить
+                    </button>
+                </div>
+            </div>
+            <div class="slick-item position-relative">
+                <img src="images/slide2.png" class="d-block w-100" alt="Image Tea 2">
+                <div class="carousel-caption-2 text-start w-50 position-absolute top-50 translate-middle-y ms-3 ms-sm-5 ps-2 ps-sm-3 ps-md-5">
+                    <h2 class="text-dark fw-bold mb-3 mb-lg-5 fs-1 responsive-heading">Закажи три пачки чая и получи
+                        подарок</h2>
+                    <button class="btn btn-primary w-50 hvr-buzz btn-carousel responsive-button">Заказать</button>
+                </div>
+            </div>
+            <div class="slick-item position-relative">
+                <img src="images/slide3.png" class="d-block w-100" alt="Image tea 3">
+                <div class=" carousel-caption-3 text-start w-50 position-absolute top-50 translate-middle-y ms-3 ms-sm-5 ps-2 ps-sm-3 ps-md-5">
+                    <h2 class="text-dark fw-bold mb-3 mb-lg-5 fs-1 responsive-heading">Попробуй нашу новинку —
+                        ягодный чай</h2>
+                    <button class="btn btn-primary w-50 hvr-buzz btn-carousel responsive-button">Заказать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="collection py-3 py-lg-5 wow animate__animated animate__backInLeft">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-3 mb-lg-5 responsive-heading">Наши чайные коллекции</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 lightgallery">
+            <div class="col">
+                <div class="card w-100 h-100">
+                    <a href="images/tea1.png" class="mfp-image">
+                        <img src="images/tea1.png" class="card-img-top" alt="Детокс чай лайм">
+                    </a>
+                    <div class="card-body d-flex flex-column">
+                        <h3 class="card-title fw-bold">Детокс чай лайм</h3>
+                        <p class="card-text">Великолепный чай внесет в вашу жизнь яркие краски и вкус расслабления</p>
+                        <a href="#" class="btn btn-primary hvr-wobble-horizontal collection-button me-auto">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card w-100 h-100">
+                    <a href="images/tea2.png" class="mfp-image">
+                        <img src="images/tea2.png" class="card-img-top" alt="Ягодный чай">
+                    </a>
+                    <div class="card-body d-flex flex-column">
+                        <h3 class="card-title fw-bold">Ягодный чай</h3>
+                        <p class="card-text">Нотки ягод позволят вам расслабиться и насладиться великолепием этого
+                            чая</p>
+                        <a href="#" class="btn btn-primary hvr-wobble-horizontal collection-button me-auto">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card w-100 h-100">
+                    <a href="images/tea3.png" class="mfp-image">
+                        <img src="images/tea3.png" class="card-img-top" alt="Цветочный чай">
+                    </a>
+                    <div class="card-body d-flex flex-column">
+                        <h3 class="card-title fw-bold">Цветочный чай</h3>
+                        <p class="card-text">Душистые цветы создают невероятный аромат и наполняют вас энергией</p>
+                        <a href="#" class="btn btn-primary hvr-wobble-horizontal collection-button me-auto">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card w-100 h-100">
+                    <a href="images/tea4.png" class="mfp-image">
+                        <img src="images/tea4.png" class="card-img-top" alt="Очищающий чай">
+                    </a>
+                    <div class="card-body d-flex flex-column">
+                        <h3 class="card-title fw-bold">Очищающий чай</h3>
+                        <p class="card-text">Бесподобный чай для получения утреннего заряда бодрости</p>
+                        <a href="#" class="btn btn-primary hvr-wobble-horizontal collection-button me-auto">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card w-100 h-100">
+                    <a href="images/tea5.png" class="mfp-image">
+                        <img src="images/tea5.png" class="card-img-top" alt="Кислый чай">
+                    </a>
+                    <div class="card-body d-flex flex-column">
+                        <h3 class="card-title fw-bold">Кислый чай</h3>
+                        <p class="card-text">Кислый чай для настоящих ценителей кислинки во время чаепития</p>
+                        <a href="#" class="btn btn-primary hvr-wobble-horizontal collection-button me-auto">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card w-100 h-100">
+                    <a href="images/tea6.png" class="mfp-image">
+                        <img src="images/tea6.png" class="card-img-top" alt="Лимонная мята">
+                    </a>
+                    <div class="card-body d-flex flex-column">
+                        <h3 class="card-title fw-bold">Лимонная мята</h3>
+                        <p class="card-text">Смесь лимона с мятой сделает ваш день самым лучшим</p>
+                        <a href="#" class="btn btn-primary hvr-wobble-horizontal collection-button me-auto">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="faq py-3 py-lg-5 m-auto">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-3 mb-lg-5 responsive-heading">Ответы на часто задаваемые вопросы</h2>
+        <div id="faqAccordion" class="custom-accordion accordion ui-accordion">
+            <h3 class="accordion-header responsive-heading">
+                <div class="accordion-button bg-primary bg-gradient text-white rounded-3 fw-bold">
+                    Собираете ли вы подарочные боксы?
+                    <svg class="arrow-icon ms-auto" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                         viewBox="0 0 20 20" fill="none">
+                        <g clip-path="url(#clip0_16_15)">
+                            <path d="M9.2196 15.5559L0.31951 6.65567C0.113495 6.44982 -6.91001e-08 6.17502 -5.92231e-08 5.88202C-4.93462e-08 5.58901 0.113495 5.31422 0.31951 5.10837L0.974789 4.45292C1.40178 4.02642 2.09576 4.02642 2.52209 4.45292L9.99585 11.9267L17.4779 4.44463C17.6839 4.23878 17.9586 4.12512 18.2514 4.12512C18.5446 4.12512 18.8192 4.23878 19.0254 4.44463L19.6805 5.10007C19.8865 5.30609 20 5.58072 20 5.87373C20 6.16673 19.8865 6.44153 19.6805 6.64738L10.7723 15.5559C10.5656 15.7623 10.2897 15.8756 9.99634 15.8749C9.70187 15.8756 9.4261 15.7623 9.2196 15.5559Z"
+                                  fill="white"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_16_15">
+                                <rect width="20" height="20" fill="white"
+                                      transform="matrix(-3.3709e-08 1 1 5.66818e-08 0 0)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+            </h3>
+            <div class="accordion-body accordion-text">
+                Да, у нас есть такая услуга. Мы можем собрать подарочный бокс на любой вкус, объем и стоимость!
+            </div>
+
+            <h3 class="accordion-header responsive-heading">
+                <div class="accordion-button bg-primary bg-gradient text-white rounded-3 fw-bold">
+                    Сколько у вас разновидностей чая?
+                    <svg class="arrow-icon ms-auto" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                         viewBox="0 0 20 20" fill="none">
+                        <g clip-path="url(#clip0_16_15)">
+                            <path d="M9.2196 15.5559L0.31951 6.65567C0.113495 6.44982 -6.91001e-08 6.17502 -5.92231e-08 5.88202C-4.93462e-08 5.58901 0.113495 5.31422 0.31951 5.10837L0.974789 4.45292C1.40178 4.02642 2.09576 4.02642 2.52209 4.45292L9.99585 11.9267L17.4779 4.44463C17.6839 4.23878 17.9586 4.12512 18.2514 4.12512C18.5446 4.12512 18.8192 4.23878 19.0254 4.44463L19.6805 5.10007C19.8865 5.30609 20 5.58072 20 5.87373C20 6.16673 19.8865 6.44153 19.6805 6.64738L10.7723 15.5559C10.5656 15.7623 10.2897 15.8756 9.99634 15.8749C9.70187 15.8756 9.4261 15.7623 9.2196 15.5559Z"
+                                  fill="white"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_16_15">
+                                <rect width="20" height="20" fill="white"
+                                      transform="matrix(-3.3709e-08 1 1 5.66818e-08 0 0)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+            </h3>
+            <div class="accordion-body accordion-text">
+                У нас представлено 6 уникальных разновидностей чая — каждый со своим характером, вкусом и ароматом. Вы
+                обязательно найдёте то, что вам по душе.
+            </div>
+
+            <h3 class="accordion-header responsive-heading">
+                <div class="accordion-button bg-primary bg-gradient text-white rounded-3 fw-bold">
+                    В какой срок осуществляется доставка?
+                    <svg class="arrow-icon ms-auto" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                         viewBox="0 0 20 20" fill="none">
+                        <g clip-path="url(#clip0_16_15)">
+                            <path d="M9.2196 15.5559L0.31951 6.65567C0.113495 6.44982 -6.91001e-08 6.17502 -5.92231e-08 5.88202C-4.93462e-08 5.58901 0.113495 5.31422 0.31951 5.10837L0.974789 4.45292C1.40178 4.02642 2.09576 4.02642 2.52209 4.45292L9.99585 11.9267L17.4779 4.44463C17.6839 4.23878 17.9586 4.12512 18.2514 4.12512C18.5446 4.12512 18.8192 4.23878 19.0254 4.44463L19.6805 5.10007C19.8865 5.30609 20 5.58072 20 5.87373C20 6.16673 19.8865 6.44153 19.6805 6.64738L10.7723 15.5559C10.5656 15.7623 10.2897 15.8756 9.99634 15.8749C9.70187 15.8756 9.4261 15.7623 9.2196 15.5559Z"
+                                  fill="white"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_16_15">
+                                <rect width="20" height="20" fill="white"
+                                      transform="matrix(-3.3709e-08 1 1 5.66818e-08 0 0)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+            </h3>
+            <div class="accordion-body accordion-text">
+                Мы стараемся доставлять заказы как можно быстрее. Обычно доставка занимает от 2 до 5 рабочих дней, в
+                зависимости от вашего региона.
+            </div>
+
+            <h3 class="accordion-header responsive-heading">
+                <div class="accordion-button bg-primary bg-gradient text-white rounded-3 fw-bold">
+                    У вас обновляется ассортимент?
+                    <svg class="arrow-icon ms-auto" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                         viewBox="0 0 20 20" fill="none">
+                        <g clip-path="url(#clip0_16_15)">
+                            <path d="M9.2196 15.5559L0.31951 6.65567C0.113495 6.44982 -6.91001e-08 6.17502 -5.92231e-08 5.88202C-4.93462e-08 5.58901 0.113495 5.31422 0.31951 5.10837L0.974789 4.45292C1.40178 4.02642 2.09576 4.02642 2.52209 4.45292L9.99585 11.9267L17.4779 4.44463C17.6839 4.23878 17.9586 4.12512 18.2514 4.12512C18.5446 4.12512 18.8192 4.23878 19.0254 4.44463L19.6805 5.10007C19.8865 5.30609 20 5.58072 20 5.87373C20 6.16673 19.8865 6.44153 19.6805 6.64738L10.7723 15.5559C10.5656 15.7623 10.2897 15.8756 9.99634 15.8749C9.70187 15.8756 9.4261 15.7623 9.2196 15.5559Z"
+                                  fill="white"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_16_15">
+                                <rect width="20" height="20" fill="white"
+                                      transform="matrix(-3.3709e-08 1 1 5.66818e-08 0 0)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+            </h3>
+            <div class="accordion-body accordion-text">
+                Да! Мы регулярно обновляем ассортимент, добавляя новые вкусы, лимитированные коллекции и сезонные
+                предложения. Следите за новостями — будет интересно!
+            </div>
+
+            <h3 class="accordion-header responsive-heading">
+                <div class="accordion-button bg-primary bg-gradient text-white rounded-3 fw-bold">
+                    Какого объема у вас пачки чая?
+                    <svg class="arrow-icon ms-auto" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                         viewBox="0 0 20 20" fill="none">
+                        <g clip-path="url(#clip0_16_15)">
+                            <path d="M9.2196 15.5559L0.31951 6.65567C0.113495 6.44982 -6.91001e-08 6.17502 -5.92231e-08 5.88202C-4.93462e-08 5.58901 0.113495 5.31422 0.31951 5.10837L0.974789 4.45292C1.40178 4.02642 2.09576 4.02642 2.52209 4.45292L9.99585 11.9267L17.4779 4.44463C17.6839 4.23878 17.9586 4.12512 18.2514 4.12512C18.5446 4.12512 18.8192 4.23878 19.0254 4.44463L19.6805 5.10007C19.8865 5.30609 20 5.58072 20 5.87373C20 6.16673 19.8865 6.44153 19.6805 6.64738L10.7723 15.5559C10.5656 15.7623 10.2897 15.8756 9.99634 15.8749C9.70187 15.8756 9.4261 15.7623 9.2196 15.5559Z"
+                                  fill="white"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_16_15">
+                                <rect width="20" height="20" fill="white"
+                                      transform="matrix(-3.3709e-08 1 1 5.66818e-08 0 0)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+            </h3>
+            <div class="accordion-body accordion-text">
+                Мы предлагаем чай в удобных пачках по 100 грамм — оптимальный объём, чтобы вы успели насладиться вкусом
+                и попробовать другие варианты.
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="order py-3 py-lg-5 m-auto wow animate__animated animate__wobble">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-3 mb-lg-5 responsive-heading">Сделать заказ</h2>
+        <form class="row g-3">
+            <div class="col-md-4">
+                <label for="inputName" class="form-label">Имя</label>
+                <input type="text" class="form-control" id="inputName">
+            </div>
+            <div class="col-md-4">
+                <label for="inputLastname" class="form-label">Фамилия</label>
+                <input type="text" class="form-control" id="inputLastname">
+            </div>
+            <div class="col-md-4">
+                <label for="inputPhone" class="form-label">Телефон</label>
+                <input type="text" class="form-control" id="inputPhone">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCountry" class="form-label">Город</label>
+                <input type="text" class="form-control" id="inputCountry">
+            </div>
+            <div class="col-md-6">
+                <label for="inputZip" class="form-label">Индекс</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Адрес</label>
+                <input type="text" class="form-control" id="inputAddress">
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary hvr-forward btn-order mt-2">Отправить</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer class="p-3 bg-light text-dark">
+    <div class="container-fluid">
+        <span class="text-rights">Все права защищены</span>
+    </div>
+</footer>
+
+<div id="thank-popup" class="popup-overlay">
+    <div class="popup-content">
+        <h2>Спасибо за заказ!</h2>
+        <p>Ваш заказ был успешно оформлен. Мы свяжемся с вами в ближайшее время.</p>
+        <button class="btn btn-primary" id="close-popup">Закрыть</button>
+    </div>
+</div>
+
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/jquery-3.7.1.min.js"></script>
+<script src="scripts/slick.min.js"></script>
+<script src="scripts/jquery-ui.min.js"></script>
+<script src="scripts/wow.min.js"></script>
+<script src="scripts/jquery.magnific-popup.min.js"></script>
+<script src="scripts/jquery.inputmask.js"></script>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
